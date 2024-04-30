@@ -1,4 +1,4 @@
-import { TRPCError, type inferRouterInputs, type inferRouterOutputs, initTRPC } from '@trpc/server';
+import { initTRPC, type inferRouterInputs, type inferRouterOutputs } from '@trpc/server';
 import type { Request, Response } from 'express';
 import superjson from 'superjson';
 
