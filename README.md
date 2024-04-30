@@ -6,7 +6,8 @@
 - React Vite
 - Express.js
 - tRPC
-- Tailwind
+- TanStack Router
+- Tailwind CSS
 
 ### Apps and Packages
 
