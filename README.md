@@ -27,12 +27,18 @@ This Turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
-### Install
+## Setup
 
 To get started, clone the repository and install the dependencies:
 
 ```
 pnpm install
+```
+
+Then, copy the `.env.example` file to `.env` and fill in the necessary environment variables. For local development, the defaul value will work. If you want to deploy the app, you will need to specify where the backend is hosted.
+
+```
+cp .env.example .env
 ```
 
 ### Build
